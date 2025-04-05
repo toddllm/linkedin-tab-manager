@@ -12,7 +12,7 @@ A Chrome extension to list and close LinkedIn tabs.
    - Toggle the "Pin to toolbar" option to ON (as shown in the screenshot below)
    - The extension icon will appear in your Chrome toolbar for easy access
 
-![Extension pinned to toolbar](images/extension-toolbar-pin.png)
+<img src="images/extension-toolbar-pin-small.png" alt="Extension pinned to toolbar" width="400" />
 
 ## Features
 
