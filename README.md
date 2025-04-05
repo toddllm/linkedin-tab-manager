@@ -9,8 +9,10 @@ A Chrome extension to list and close LinkedIn tabs.
 3. Click "Load unpacked" and select this folder
 4. **Pin to Toolbar**: 
    - On the extensions page, find the "LinkedIn Tab Manager"
-   - Toggle the "Pin to toolbar" option to ON
+   - Toggle the "Pin to toolbar" option to ON (as shown in the screenshot below)
    - The extension icon will appear in your Chrome toolbar for easy access
+
+![Extension pinned to toolbar](images/extension-toolbar-pin.png)
 
 ## Features
 
