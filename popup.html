@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Tab Manager</title>
+  <style>
+    body {
+      width: 350px;
+      max-height: 500px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    h1 {
+      font-size: 16px;
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    li:hover {
+      background-color: #f5f5f5;
+    }
+    .tab-title {
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .close-btn {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding: 3px 8px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .no-tabs {
+      padding: 20px;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>LinkedIn Tabs</h1>
+  <div id="tabs-container">
+    <ul id="tabs-list"></ul>
+    <div id="no-tabs-message" class="no-tabs" style="display: none;">
+      No LinkedIn tabs are currently open.
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
